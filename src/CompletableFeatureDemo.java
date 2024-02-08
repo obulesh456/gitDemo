@@ -11,7 +11,6 @@ public class CompletableFeatureDemo {
         });
         List<Integer> integers = future.get();
         System.out.println(integers);
-        System.out.println("added for git..");
     }
     private static void delay(int i){
         try{
